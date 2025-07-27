@@ -232,3 +232,132 @@ section:nth-of-type(3) > div > p:last-of-type {
   font-size: 0.8rem;
   color: #888;
 }
+
+/* Free membership section */
+section:nth-of-type(2) {
+  background-color: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+section:nth-of-type(2) h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+/* Membership items layout */
+section:nth-of-type(2) div {
+  display: inline-block;
+  width: 220px;
+  margin: 20px;
+  vertical-align: top;
+}
+
+section:nth-of-type(2) img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+section:nth-of-type(2) h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+section:nth-of-type(2) p {
+  font-size: 14px;
+  color: #777;
+  line-height: 1.5;
+}
+
+/* Register button */
+section:nth-of-type(2) button {
+  margin-top: 40px;
+  padding: 14px 32px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #c271ff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+section:nth-of-type(2) button:hover {
+  background-color: #a74dd1;
+}
+
+/* MEMBERSHIP SECTION */
+.membership {
+  background-color: #fff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.membership h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: hsl(214, 50%, 95%);
+  margin-bottom: 60px;
+}
+
+.membership > div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto 60px;
+}
+
+.membership > div > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.membership img {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 20px;
+}
+
+.membership h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: hwb(215 91% 3%);
+}
+
+.membership p {
+  font-size: 14px;
+  color: hsla(214, 33%, 96%, 0.702);
+  line-height: 1.4;
+  max-width: 260px;
+}
+
+.membership button {
+  background-color: #c271ff;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  padding: 14px 40px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.membership button:hover {
+  background-color: #a44ee0;
+}
+.membership {
+  background-color: #252b37; /* from Figma */
+  text-align: center;
+  padding: 60px 20px;
+}
