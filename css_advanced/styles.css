@@ -161,3 +161,74 @@ main section:nth-of-type(2) h3 {
 main section:nth-of-type(2) p {
   font-size: 16px;
 }
+
+/* === Video Section Styling === */
+section:nth-of-type(3) {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+section:nth-of-type(3) > h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+section:nth-of-type(3) > div {
+  display: inline-block;
+  width: 250px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  text-align: left;
+  vertical-align: top;
+}
+
+section:nth-of-type(3) > div img:first-child {
+  width: 100%;
+  border-radius: 10px;
+}
+
+section:nth-of-type(3) h3 {
+  font-size: 1.2rem;
+  margin: 12px 0 6px;
+}
+
+section:nth-of-type(3) p {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 4px 0;
+}
+
+section:nth-of-type(3) > div > div:nth-of-type(1) {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+section:nth-of-type(3) > div > div:nth-of-type(1) img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+section:nth-of-type(3) > div > div:nth-of-type(1) h4 {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+section:nth-of-type(3) > div > div:nth-of-type(2) {
+  display: flex;
+  gap: 4px;
+  margin: 8px 0;
+  color: #ffc107; /* star yellow */
+}
+
+section:nth-of-type(3) > div > p:last-of-type {
+  font-size: 0.8rem;
+  color: #888;
+}
