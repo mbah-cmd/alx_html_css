@@ -121,3 +121,43 @@ main section:first-of-type button:hover {
   font-size: 14px;
   color: #767676;
 }
+/* Testimonial / Quote Section */
+main section:nth-of-type(2) {
+  background-color: #C271FF;
+  padding: 80px 20px;
+  color: white;
+}
+
+main section:nth-of-type(2) > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  max-width: 1000px;
+  margin: 0 auto;
+  flex-wrap: wrap; /* Wraps on smaller screens */
+  text-align: left;
+}
+
+main section:nth-of-type(2) > div:first-child img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+main section:nth-of-type(2) blockquote {
+  font-size: 24px;
+  font-style: italic;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+main section:nth-of-type(2) h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+main section:nth-of-type(2) p {
+  font-size: 16px;
+}
